@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5B538B"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    tools:context=".SubscribeActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/simplisickyfill"
+        android:text="@string/app_name"
+        android:textColor="#FFFFFF"
+        android:textSize="75sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextMobile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.439" />
+
+    <EditText
+        android:id="@+id/editTextMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="316dp"
+        android:autofillHints=""
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_mobile_no"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="@string/mobile_no"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_goneMarginTop="70dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMobile" />
+
+    <Button
+        android:id="@+id/subscribe"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/custome_button"
+        android:text="@string/subscribe"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:onClick="subscribe"
+        app:layout_constraintEnd_toStartOf="@+id/unsubscribe"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMobile" />
+
+    <Button
+        android:id="@+id/unsubscribe"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:background="@drawable/custome_button"
+        android:text="@string/unsubscribe"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:onClick="unsubscribe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMobile" />
+
+
+</android.support.constraint.ConstraintLayout>

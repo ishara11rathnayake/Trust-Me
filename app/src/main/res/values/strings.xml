@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Trust Me</string>
+    <string name="get_started">Get Started</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="mobile_no">Mobile No</string>
+</resources>
