@@ -19,7 +19,7 @@
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/simplisickyfill"
         android:text="@string/app_name"
-        android:textSize="110sp"
+        android:textSize="100sp"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/btn_getStarted"
         app:layout_constraintEnd_toEndOf="parent"
